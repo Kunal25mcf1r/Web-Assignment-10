@@ -4,16 +4,20 @@ body {
     align-items: center;
     height: 100vh;
     background: #f0f0f0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .main {
     text-align: center;
   }
-  #removeindex
-  {
-    max-width: 50px;
+ 
+  #addBtn{
+    background-color: rgb(162, 162, 238);
   }
-  
+  #clearBtn
+  {
+    background-color: rgb(238, 144, 144);
+  }
   input, button {
     padding: 10px;
     margin: 5px;
@@ -26,13 +30,17 @@ body {
     cursor: pointer;
   }
   
-  ol {
+  ul {
     text-align: left;
     padding: 0;
   }
   
   li {
+    background-color: rgba(162, 192, 113, 0.815);
     margin: 5px 0;
     cursor: pointer;
+  }
+  p{
+    background-color: rgb(166, 230, 230);
   }
   
